@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>支付-银泰网 - 银泰百货连锁在线购物中心，银泰百货集团官方购物网站</title>
+		<link rel="stylesheet" type="text/css" href="css/pay.css"/>
+		<link rel="stylesheet" type="text/css" href="css/head.css"/>
+		<link rel="stylesheet" type="text/css" href="css/base.css"/>
+		<link rel="stylesheet" href="css/bottom.css" />
+		<link rel="shortcut icon" href="img/yinti1.png" />
+		<script src="js/jquery-2.1.0.js"></script>
+		<script src="js/pay.js"></script>
+	</head>
+	<body>
+		<div id="hed"></div>
+		<div id="paybd">
+			<div class="all">
+				<div class="pay-top">
+					<h2></h2>
+					<div class="step">
+						<span class="clickone">查看购物袋<em>STEP 1</em></span>
+						<span class="arrow">&gt;</span>
+						<span class="clicktwo click-two">填写订单信息<em>STEP 2</em></span>
+						<span class="arrow">&gt;</span>
+						<span class="clicksan">订单确认<em>STEP 3</em></span>
+					</div>
+				</div>
+				<div class="shouhuobox">
+					<div class="shouhuocolor paykuang">
+						<div class="shouhuoxinxi">
+							<h3>收货信息</h3>
+						</div>
+						<div class="alldizhi">
+							<div class="newdizhi">
+								<input type="radio" name="" id="" value="" />
+								<p>使用新地址</p>
+							</div>
+							<div class="shouhuoren">
+								<ul>
+									<li>
+										<span class="Tit" >收&nbsp; 货 人：</span>
+										<input type="text" class="shr" />
+									</li>
+									<li>
+										<span class="Tit" >手&nbsp; 机：</span>
+										<input type="text" class="phonee" />
+										<em>或者</em>
+										固定电话：
+										<input type="text" class="phoneprefix" />
+										-
+										<input type="text" class="phonee"/>
+										-
+										<input type="text" class="phoneext"/>
+									</li>
+									<li>
+										<span class="Tit" >收货地址：</span>
+										<address>
+											<select class="" ">
+												<option value="0">请选择</option>
+												<option value="100010000">北京市</option>
+												<option value="100020000">天津市</option>
+												<option value="100030000">河北省</option>
+												<option value="100040000">山西省</option>
+												<option value="100050000">内蒙古自治区</option>
+												<option value="100060000">辽宁省</option>
+												<option value="100070000">吉林省</option>
+												<option value="100080000">黑龙江</option>
+												<option value="100090000">上海市</option>
+												<option value="100100000">江苏省</option>
+												<option value="100110000">浙江省</option>
+												<option value="100120000">安徽省</option>
+												<option value="100130000">福建省</option>
+												<option value="100140000">江西省</option>
+												<option value="100150000">山东省</option>
+												<option value="100160000">河南省</option>
+												<option value="100170000">湖北省</option>
+												<option value="100180000">湖南省</option>
+												<option value="100190000">广东省</option>
+												<option value="100200000">广西壮族自治区</option>
+												<option value="100210000">海南省</option>
+												<option value="100220000">重庆市</option>
+												<option value="100230000">四川省</option>
+												<option value="100240000">贵州省</option>
+												<option value="100250000">云南省</option>
+												<option value="100260000">西藏自治区</option>
+												<option value="100270000">陕西省</option>
+												<option value="100280000">甘肃省</option>
+												<option value="100290000">青海省</option>
+												<option value="100300000">宁夏回族自治区</option>
+												<option value="100310000">新疆维吾尔自治区</option></select>
+										</address>
+										<div class="youradderss">
+											<input type="text" class="preadderss"/>
+										</div>
+									</li>
+									<li>
+										<span class="Tit">邮政编码：</span>
+										<input type="text" class="zipcode" />
+									</li>
+									<li class="fengexian"></li>
+									<li class="timelist">
+										<span class="Tit long">送货时间：</span>
+										<div>
+											<span>
+												<input type="radio"  name="jia"  />
+												<p>&nbsp;工作日送货&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;周一至周五，早上9:00至晚6:00</p>
+											</span>
+										</div>
+										
+										
+									</li>
+									<li class="timelist">
+										<span class="Tit long"></span>
+										<div>
+											<span>
+												<input type="radio"  name="jia"/>
+												<p>&nbsp;节假日送货&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;周六日及国家法定节假日</p>
+											</span>
+										</div>
+									</li>
+									<li class="timelist">
+										<span class="Tit long"></span>
+										<div>
+											<span>
+												<input type="radio"  name="jia"  />
+												<p>&nbsp;任何时间送货</p>
+											</span>
+										</div>
+									</li>
+								</ul>
+							</div>
+							<div class="querenshouhuo">
+								<button>确认收获信息</button>
+							</div>
+						</div>
+					</div>
+					<div class="zhifubao paykuang">
+						<div class="payfangshi">
+							<h3>支付方式</h3>
+							<span>
+								<a href="#">【修改】</a>
+							</span>
+						</div>
+						<div class="alipay">
+							<div class="payjine">
+							您本次购物需支付
+							<span>￥1,749.00</span>
+							元
+							</div>
+						</div>
+						<div class="paytubiao">
+							<div class="alipaybank">
+								<input type="radio" checked="checked"/>
+								<span>
+									<img src="img/pay/alipay.gif"/>
+								</span>
+							</div>
+						</div>
+					</div>
+					<div class="fapiao">
+						<div class="xfapiao">
+							<div class="xfapiao-top">
+								<h3>发票信息</h3>
+								<span>
+									<a href="#">【修改】</a>
+								</span>
+							</div>
+							<div class="xfapiao-bottom">
+								<p>发票信息 - 无</p>
+							</div>
+						</div>
+					</div>
+					
+				</div>
+				<div class="commodity">
+					<div class="commoditytitle">
+						<h3>商品清单</h3>
+					</div>
+					<div class="split-title">
+            			<h4>以下商品将由银泰网发出</h4>
+        			</div>
+        			<div class="shangpinbianhao">
+        				<div class="Itemize">
+                    		<span class="column1">商品编号</span>
+              				<span class="column2">商品明细</span>
+              			    <span class="column3">获得积分</span>
+                			<span class="column4">数量</span>
+             				<span class="column5">单价</span>
+                 			<span class="column6">小计</span>
+            			</div>
+            			<div class="yifubianhao">
+            				<div class="column column1">
+                            21-107-7365
+                     	 	</div>
+                     	 	<div class="column column2">
+                     	 		<div class="shangpinmingxi">
+                     	 			<div class="mingxi-img">
+                     	 				<a href="#">
+                     	 					<img src="img/pay/mingxiyifu.jpg"/>
+                     	 				</a>
+                     	 			</div>
+                     	 			<p class="pro-title">
+                     	 				<a href="#">【自营】FENDI芬迪深蓝色混合材质拼皮单贴袋男士短袖T恤,FY0760 - 6FT,46
+                                
+                     	 				</a>
+                     	 			</p>
+                     	 			<div class="pro-title">
+                     	 				<p class="pro-check">
+                                                <span>
+                                                    	颜色：<b>深蓝色</b>
+                                                </span>
+                                                <span>
+                                                    	尺码：<b>46</b>
+                                                </span>
+                                		</p>
+                     	 			</div>
+                     	 		</div>
+                     	 	</div>
+                     	 	<div class="column column3">
+                            	1749
+                     		</div>
+                     		<div class="column column4">
+                       		 1
+                   			</div>
+                   			<div class="column column5">
+                      			<div class="pro-price">
+                            	<strong>
+                               	 ￥1749.00
+
+                           		</strong>
+                      			</div>
+                   			</div>
+                   			<div class="column column6">
+                         	   <div class="pro-price"><strong>￥1749.00</strong></div>
+                        	</div>
+            			</div>
+        			</div>
+				</div>
+				<div class="kahaobox">
+					<div class="chooseShowSum J-isDisMoney" >
+       					<div class="showSunTxt">
+           					<input type="checkbox" id="hidesum" class="">
+            				<label for="hidesum">隐藏订单金额</label>
+     					</div>
+        					<div class="showSunBox">
+            				<span class="moneyhelp">帮助</span>
+            					<div class="moneyhelpTxt">
+                						<div class="helpTxt-i">
+                    						<div class="helpTxt">
+                        						<span class="oa">未隐藏订单金额</span> <span>隐藏订单金额</span>
+                    						</div>
+                    						<div class="helpPic">
+                       							<img src="img/pay/shopcart-mount.png" alt="" title="">
+                		   					 </div>
+               			  					<p>
+                        					为了便于您赠送礼品，勾选后发货单上将不会显示商品金额
+                    						</p>
+                    						<i></i>
+               							</div>
+            					</div>
+       						</div>
+   					</div>
+   					<div class="youhui">
+   						<div class="youhuijuan">
+   							<span>使用优惠券</span>
+   							<i></i>
+   						</div>
+   					</div>
+   					<div class="qitayouhui">
+   						<div class="coupons-title">
+                    	   	<div class="unified coupons-amount">金额</div>
+                    	    <div class="unified coupons-category">品类</div>
+                    	    <div class="unified coupons-time">有效期</div>
+                    	    <div class="unified coupons-note">说明</div>
+                    	</div>
+                    	<div class="qtjuan">
+                    		<div class="juan1">
+                    			<input type="radio" checked=＂checked＂/>
+                    			<span class="qita">其他优惠券</span>
+                    		</div>
+                    		<div class="bianma">
+                    			<span class="qita">优惠券编码:</span>
+                    			<input type="text" class="bm" />
+                    			<button class="bianm">使用</button>
+                    		</div>
+                    	</div>
+   					</div>
+   					<div class="yintaikazhifu">
+   						<div class="coupons-click J-IntimeClick">
+              				<span>使用银泰卡支付</span><i></i>
+           				</div>
+   					</div>
+   					<!--输入银泰卡号-->
+   					<div class="yintaikahao">
+   						<div class="yintai-main payment-main">
+               				<div class="yintai-show">
+                	    		<div class="yintai-use">
+                    	    		<span>请输入您的银泰卡卡号：</span>
+                    	   			<input type="text" class="yt-one-input J-IntimeCard" maxlength="19">
+                    			    <span>网购激活码：</span>
+                    	    		<input type="text" class="yt-two-input J-IntimePass" maxlength="10">
+                    	    		<button class="J-UseIntime">使用</button>
+                       				<em class="J-YintaiError"></em>
+                   				</div>
+                  				<p class="payment-assist"><a target="_blank" href="http://event.yintai.com/yintaika.shtml">什么是银泰卡？</a></p>
+          			  	 	</div>
+               
+               		    	<div class="yintai-prompt">
+                       			<p class="yintai-declare">可使用的银泰卡：</p>
+                        		<div class="yintai-intime">
+                            		<div class="intime-title">
+                                	<div class="unified intime-check"></div>
+                                	<div class="unified intime-cardid">卡号</div>
+                                	<div class="unified intime-usable">可用金额</div>
+                                	<div class="unified intime-use">本次使用金额</div>
+                                	<div class="unified intime-balance">余额</div>
+                                	<div class="unified intime-type">类型</div>
+                            		</div>
+                           			<div class="intime-list J-IntimeList" id="yui_3_13_0_1_1486477868781_572">
+
+                            		</div>
+                        		</div>
+                  		    </div>
+                  		    
+            			</div>
+            			
+   					</div>
+   					
+   					
+				</div>
+				
+				<div class="PayofTable">
+            <div class="CheckoutInfor cf">
+                <div class="TotalAmount">
+                    <p class="AmountNumsSan">
+                        <span><em class="Quantity">您已选<strong>1 </strong>件商品</em>商品总价：</span><b>¥1,749.00</b>
+                    </p>
+
+                        <p class="AmountNumsSan">
+                            <span>节省金额：</span><b>¥0.00</b>
+                        </p>
+                    
+                        <p class="AmountNumsSan" id="J-DeductioFreight">
+                            <span>运费：</span><b>¥0.00 </b>
+                        </p>
+
+                    <p class="AmountNumsTwo">
+                        <span>需支付金额：</span><b class="J-AmountBox">¥1,749.00</b>
+                    </p>
+                </div>
+            </div>
+            <div class="Settlement cf">
+                <div class="Selectkey">
+                </div>
+                <div class="SubmitOrder">
+                	<a href="wanchengzhifu.html"></a>
+                    <input value="提交订单" class="Accounts" type="button" id="J_OrderSubmitBtn" data-clk="submitorder">
+                </div>
+            </div>
+        </div>
+			</div>
+		</div>
+		<div id="btm"></div>
+	</body>
+</html>

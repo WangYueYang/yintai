@@ -1,0 +1,863 @@
+html{
+	    background-color: #eee;
+	color: #666;
+}
+body {
+	color: #666;
+    font: normal 12px/1.5 Verdana,simsun,Sans-Serif;
+}
+#hed{
+	height:275px;
+	background:#fff;
+}
+#btm{
+	background:#fff;
+	height:300px;
+}
+#hed nav{
+	display:none;
+}
+#paybd{
+	width: 980px;
+    margin: 0 auto;
+    background-color: #eee;
+}
+.all{
+    width: 980px;
+    padding: 20px;
+    margin: 20px auto;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+.pay-top{
+    height: 80px;
+    margin-bottom: 10px;
+}
+.pay-top h2{
+	float: left;
+    width: 112px;
+    height: 80px;
+    text-indent: -999px;
+    overflow: hidden;
+	background: url(../img/pay/shopping-head.jpg);
+}
+.step{
+	width: 538px;
+	height: 60px;
+	    padding-top: 3px;
+    float: right;
+    margin-right: 10px;
+    display: inline;
+    box-sizing: border-box;
+    background: url(../img/pay/shopping-head.jpg) -158px 5px;
+}
+.step span{
+	    float: left;
+    vertical-align: top;
+    text-align: center;
+    font-family: "\5fae\8f6f\96c5\9ed1";
+    color: #999;
+}
+.clickone{
+	    width: 76px;
+}
+.step .arrow{
+	display: block;
+    overflow: hidden;
+    width: 0;
+    text-indent: -999px;
+}
+.step span em{
+	    display: block;
+    padding-top: 20px;
+    text-align: center;
+    font-family: Verdana;
+    font-size: 10px;
+    color: #ccc;
+        font-style: normal;
+    font-weight: 400;
+}
+
+.step .click-two{
+	width: 402px;
+	    font-size: 14px;
+    color: #e4004d;
+}
+.step .clicksan{
+	    width: 60px;
+}
+.shouhuobox{
+	    width: 940px;
+    margin-bottom: 15px;
+    clear: both;
+}
+.shouhuocolor{
+	width: 940px;
+	height: 478px;
+	background-color: #fffeed;
+	margin-bottom: 15px;
+    box-sizing: border-box;
+}
+.paykuang{
+	    box-sizing: border-box;
+	    border: solid #e2e2e2;
+    border-width: 1px 1px 2px;
+    padding: 20px;
+}
+.shouhuoxinxi{
+	height: 30px;
+    line-height: 24px;
+    margin-bottom: 15px;
+    border-bottom: 1px dotted #e2e2e2;
+}
+.shouhuoxinxi h3{
+	float: left;
+    font-size: 14px;
+        color: #666;
+}
+.alldizhi{
+	width: 898px;
+	height: 389px;
+}
+.newdizhi{
+	width: 898px;
+	height: 24px;
+	line-height: 24px;
+	    margin-bottom: 15px;
+}
+.newdizhi input{
+	margin: 6px 6px 0 38px;
+	vertical-align: sub;
+}
+.newdizhi p{
+	display: inline-block;
+}
+.shouhuoren{
+	width: 778px;
+	height: 305px;
+	    border: 1px solid #E2E2E2;
+    margin: 0 80px 15px 40px;
+    padding: 20px 0 10px;
+    background: #f9f9f9;
+        box-sizing: border-box;
+}
+.shouhuoren ul li{
+    padding-bottom: 10px;
+    float:none;
+}
+.shouhuoren ul li .Tit{
+    display: inline-block;
+    width: 96px;
+    text-align: right;
+}
+.shouhuoren ul li input{
+	border: 2px inset;
+	padding-left: 2px;
+    vertical-align: sub;
+}
+.shouhuoren ul li em{
+    display: inline-block;
+    color: #999;
+    margin: 0 6px;
+    font-style: normal;
+    font-weight: 400;
+}
+.shr{
+	width: 70px;
+    height: 20px;
+    line-height: 20px
+}
+.phonee{
+	    width: 116px;
+    height: 20px;
+    line-height: 20px;
+}
+.phoneprefix{
+	    width: 40px;
+	        height: 20px;
+    line-height: 20px;
+}
+.phoneext{
+	width: 60px;
+    height: 20px;
+    line-height: 20px;
+}
+.shouhuoren address{
+	width: 125px;
+	height: 15px;
+	display: inline;
+}
+.shouhuoren address select{
+    width: 120px;
+    height: 18px;
+    border:1px solid #999;
+    vertical-align: bottom;
+}
+.youradderss{
+	    width: 678px;
+    height: 24px;
+    margin-top: 8px;
+    margin-left: 100px;
+}
+.preadderss{
+	    width: 288px;
+    height: 20px;
+    line-height: 20px;
+}
+.zipcode{
+	    width: 76px;
+    height: 20px;
+    line-height: 20px;
+}
+.fengexian{
+	    height: 1px;
+    overflow: hidden;
+    border-top: 1px dotted #cbcbcb;
+    margin: 5px 16px;
+}
+.timelist div{
+	width: 313px;
+    display:  -webkit-inline-box;  
+}
+.timelist p{
+    display: inline-block;
+}
+.querenshouhuo{
+    padding-left: 40px;
+}
+.querenshouhuo button{
+    background: #525252 ;
+    color: #eee;
+    border: 1px solid #333;
+    font-size: 14px;
+    line-height: 1;
+    cursor: pointer;
+    overflow: visible;
+    outline: none;
+    padding: 6px 15px 8px;
+    padding: 8px 15px 6px\9;
+    height: 30px;
+}
+.zhifubao{
+    width: 940px;
+    height: 155px;
+    margin-bottom: 15px;
+}
+.payfangshi{
+    height: 30px;
+    line-height: 24px;
+    margin-bottom: 15px;
+    border-bottom: 1px dotted #e2e2e2;
+}
+.payfangshi h3{
+	float: left;
+}
+.payfangshi span a{
+    color: #e5004f;
+}
+.alipay{
+	width: 898px;
+	height: 26px;
+}
+.alipay span{
+    font-weight: 700;
+    color: #e5004f;
+}
+.paytubiao{
+	width: 898px;
+	height: 40px;
+}
+.alipaybank{
+	width: 157px;
+	height: 40px;
+}
+.alipaybank input{
+    vertical-align: middle;
+}
+.alipaybank span{
+    display: inline-block;
+    width: 136px;
+    height: 36px;
+    vertical-align: middle;
+    border-radius: 2px;
+    border: 1px solid #bbb;
+    padding: 1px;
+    background-color: #f9f9f9;
+}
+.fapiao{
+    width: 940px;
+    height: 107px;
+    margin-bottom: 15px
+}
+.xfapiao{
+	width: 940px;
+    height: 107px;
+    border: solid #e2e2e2;
+    border-width: 1px 1px 2px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.xfapiao-top{
+	width: 898px;
+    height: 31px;
+    line-height: 24px;
+    margin-bottom: 15px;
+    border-bottom: 1px dotted #e2e2e2;
+    box-sizing: border-box;
+}
+.xfapiao-top h3{
+	float: left;
+    font-size: 14px;
+    color: #666
+}
+.xfapiao-top a {
+	color: #e5004f;
+}
+.xfapiao-bottom p {
+	color: #666
+}
+.commodity{
+    width: 940px;
+    height: 211px;
+    margin-bottom: 15px;
+    clear: both;
+}
+.commoditytitle{
+    width: 940px;
+    margin-bottom: 15px;
+    clear: both;
+    position: relative;
+    height: 30px;
+    background-color: #666;
+}
+.commoditytitle h3{
+    line-height: 30px;
+    color: #fff;
+    padding: 0 32px 0 10px;
+    font-size: 100%;
+}
+.split-title{
+    height: 32px;
+    line-height: 32px;
+    margin-top: 10px;
+}
+.split-title h4{
+	font-size: 14px;
+}
+.Itemize{
+	height: 30px;
+}
+.shangpinbianhao{
+	    width: 938px;
+    border: 1px solid #e2e2e2;
+}
+.Itemize span{
+	float: left;
+    line-height: 30px;
+    padding-left: 10px;
+    text-align: left;
+    background-color: #eee;
+    color: #999;
+}
+.column1{
+	width: 100px;
+}
+.column2{
+	width: 376px;
+}
+.column3{
+	width:80px;
+}
+.column4{
+	width: 102px;
+}
+.column5{
+	width: 110px;
+}
+.column6{
+	width: 110px;
+}
+.yifubianhao{
+	width: 938px;
+	height: 107px;
+	border-bottom: 1px solid #e2e2e2;
+}
+.column{
+	float: left;
+    padding: 28px 0 8px 10px;
+}
+.shangpinmingxi{
+	width: 376px;
+    padding-bottom: 10px;
+}
+.mingxi-img{
+	float: left;
+    width: 45px;
+    height: 60px;
+    margin-right: 10px;
+    overflow: hidden;
+    background-color: #000;
+}
+.mingxi-img img{
+	    vertical-align: top;
+    width: 45px;
+    height: 60px;
+}
+.pro-title{
+	float: left;
+    width: 310px;
+}
+.pro-title a{
+	color: #666;
+}
+.pro-check{
+	    height: 22px;
+    line-height: 22px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 310px;
+}
+.pro-check span{
+	    margin-right: 10px;
+    color: #999;
+}
+.pro-check span b{
+	    font-weight: 400;
+}
+.pro-price strong{
+	display: inline-block;
+    height: 16px;
+    line-height: 16px;
+    vertical-align: middle;
+    color: #e4004f;
+    padding-right: 8px;
+}
+.kahaobox{
+	width: 940px;
+    margin-bottom: 15px;
+    clear: both;
+}
+.chooseShowSum{
+	    width: 250px;
+    height: 20px;
+}
+.showSunTxt{
+	    float: left;
+    margin-right: 5px;
+}
+.showSunTxt input{
+	vertical-align: middle;
+}
+.showSunBox{
+	    float: left;
+    position: relative;
+    z-index: 201;
+    width: 12px;
+    height: 16px;
+}
+.showSunBox .moneyhelp{
+	    width: 12px;
+    height: 16px;
+    overflow: hidden;
+    display: block;
+    text-indent: -99px;
+    background-position: 0 -394px;
+    cursor: pointer;
+}
+.showSunBox .moneyhelpTxt{
+	display: none;
+    position: absolute;
+    left: -94px;
+    top: -172px;
+    width: 426px;
+    height: 166px;
+    border: 1px solid #ccc;
+    background-color: #fffeed;
+}
+
+.showSunBox:hover .moneyhelpTxt{
+	display: block;
+}
+.showSunBox .helpTxt-i{
+	    position: relative;
+    width: 426px;
+    height: 166px;
+}
+.showSunBox .helpTxt-i{
+	height: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.showSunBox .helpTxt-i .helpTxt span.oa{
+	    display: inline-block;
+    width: 197px;
+}
+.moneyhelp{
+	    background: url(../img/pay/shopcart-icon_20130529.png) 0 0 no-repeat;
+}
+.youhui{
+	margin-bottom: 10px;
+	    height: 26px;
+    margin-top: 10px;
+}
+.youhuijuan{
+	    float: left;
+    position: relative;
+    height: 24px;
+    margin-right: 10px;
+    padding-right: 10px;
+    border: solid #e5004f;
+    border-width: 1px 1px 1px 5px;
+    background-color: #fff;
+    cursor: pointer;
+}
+.youhuijuan span{
+	    float: left;
+    width: 92px;
+    height: 24px;
+    line-height: 24px;
+    text-indent: 7px;
+    margin-right: 5px;
+}
+.youhuijuan i{
+	    float: left;
+    position: relative;
+    width: 10px;
+    height: 6px;
+    margin-top: 10px;
+    background: url(../img/pay/checkout-button.png) -284px -61px;
+}
+.qitayouhui{
+	    border: 1px solid #ddd;
+    background-color: #fff;
+}
+.coupons-title{
+	    height: 30px;
+    line-height: 30px;
+    border-bottom: 1px solid #e2e2e2;
+    background-color: #f7f7f7;
+    font-weight: 700;
+}
+.unified{
+	    float: left;
+    margin-right: 10px;
+    height: 30px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.coupons-amount{
+	width: 170px;
+    padding-left: 10px;
+}
+.coupons-category{
+	    width: 260px;
+}
+.coupons-time{
+	    width: 200px;
+}
+.yintaikazhifu{
+	margin-bottom: 10px;
+	height: 26px;
+    margin-top: 10px;
+}
+.coupons-click{
+	    float: left;
+    position: relative;
+    height: 24px;
+    margin-right: 10px;
+    padding-right: 10px;
+    border: solid #e5004f;
+    border-width: 1px 1px 1px 5px;
+    background-color: #fff;
+    cursor: pointer;
+}
+.coupons-click span{
+	    float: left;
+    width: 92px;
+    height: 24px;
+    line-height: 24px;
+    text-indent: 7px;
+    margin-right: 5px;
+}
+.coupons-click i{
+		    float: left;
+    position: relative;
+    width: 10px;
+    height: 6px;
+    margin-top: 10px;
+    background: url(../img/pay/checkout-button.png) -284px -61px;
+}
+.payment-main{
+	    padding: 0 10px;
+    border: 1px solid #ddd;
+}
+.yintai-main .yintai-show{
+	    height: 44px;
+}
+.yintai-main .yintai-use{
+	float: left;
+    height: 34px;
+    padding-top: 10px;
+}
+.yintai-use span{
+	    float: left;
+    height: 24px;
+    line-height: 24px;
+    padding-left: 10px;
+}
+.yintai-main .yintai-use .yt-one-input{
+	    width: 180px;
+}
+.yintai-main .yintai-use input{
+	float: left;
+    height: 22px;
+    line-height: 22px;
+    padding: 0 2px;
+    margin-right: 10px;
+    border: 1px solid;
+    border-color: #aeaeae #e6e6e6 #e6e6e6 #aeaeae;
+}
+.yintai-main .yintai-use button{
+	float: left;
+    width: 42px;
+    height: 24px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    cursor: pointer;
+    color: #666;
+    background: url(../img/pay/checkout-button.png) 0 -45px;
+}
+.yintai-main .yintai-use button:hover{
+	background-position: -42px -45px;
+
+}
+.payment-assist{
+	padding-top: 5px;
+	float: right;
+    line-height: 34px;
+    padding-right: 10px;
+}
+.payment-assist a{
+	padding-left: 15px;
+    background-position: 0 -395px;
+    text-decoration: underline;
+        color: #666;
+    background: url(../img/pay/shopcart-icon_20130529.png) 0 -395px;
+}
+.yintai-prompt{
+	padding: 10px;
+    border-top: 1px solid #e2e2e2;
+}
+.yintai-prompt p{
+	height: 22px;
+}
+.yintai-intime{
+	    border: 1px solid #ddd;
+}
+.intime-title{
+	height: 32px;
+    line-height: 32px;
+    border-bottom: 1px solid #e2e2e2;
+    background-color: #f7f7f7;
+    font-weight: 700;
+}
+.yintai-main .unified{
+	    float: left;
+    margin-right: 10px;
+    height: 30px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.intime-check{
+	width: 30px;
+    text-align: center;
+}
+.intime-cardid{
+	width: 205px;
+}
+.intime-usable{
+	    width: 150px;
+}
+.intime-use{
+	    width: 150px;
+}
+.intime-balance{
+	    width: 150px;
+}
+.intime-type{
+	    width: 150px;
+}
+.PayofTable{
+	    border: solid #ddd;
+    background-color: #eee;
+    border-width: 1px 1px 2px;
+    margin-bottom: 20px;
+        width: 940px;
+    height: 196px;
+}
+.CheckoutInfor{
+	width: 918px;
+    height: 124px;
+	    border-bottom: 1px solid #d2d2d2;
+    margin: 0 10px;
+    padding: 15px 0;
+    box-sizing: border-box;
+}
+.TotalAmount{
+	float: right;
+    font-family: "\5b8b\4f53";
+}
+.TotalAmount p{
+	    font-family: Verdana;
+    line-height: 22px;
+    text-align: right;
+}
+.AmountNumsSan{
+	padding-right: 34px;
+    font-size: 12px;
+}
+.TotalAmount p span{
+	display: inline-block;
+    width: 210px;
+    text-align: right;
+}
+.TotalAmount .Quantity{
+	padding-right: 20px;
+	    font-style: normal;
+    font-weight: 400;
+}
+.TotalAmount .Quantity strong{
+	    color: #E40150;
+}
+.AmountNumsSan b{
+	    text-align: left;
+    color: #666;
+}
+.TotalAmount b{
+	font-weight: 400;
+    text-align: right;
+    display: inline-block;
+    width: 102px;
+}
+.AmountNumsTwo{
+	    font-weight: 700;
+    font-size: 16px;
+    padding: 5px 34px 0 0;
+}
+.AmountNumsTwo span{
+	    color: #333;
+}
+.AmountNumsTwo b{
+	text-align: left;
+    color: #e40150;
+    font-weight: 700;
+}
+.Settlement{
+	    clear: both;
+    padding: 10px 0 15px;
+    border-top: 1px solid #fff;
+    margin: 0 10px;
+    position: relative;
+}
+.Selectkey{
+	    float: left;
+    width: 350px;
+    padding-left: 4px;
+}
+.SubmitOrder{
+	    float: right;
+    width: 147px;
+    height: 43px;
+    cursor: pointer;
+    background: url(../img/pay/checkout-button.png);
+}
+.Accounts{
+	float: left;
+    width: 143px;
+    height: 38px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    line-height: 100px;
+    overflow: hidden;
+    opacity: 0;
+}
+.qtjuan{
+	height:44px;
+	border-bottom:1px solid #e2e2e2;
+}
+.juan1{
+	width:170px;
+	height:44px;
+	padding-left:10px;
+	margin-right:10px;
+	line-height:44px;
+	float:left;
+}
+.juan1 input{
+	float:left;
+	margin:16px 5px 0 0;
+}
+.qita{
+	height:44px;
+	width:110px;
+	display:block;
+	float:left;
+	line-height:44px;
+}
+.bianma{
+	height:44px;
+	float:left;
+	width:700px;
+}
+.bianma .qita{
+	width:72px;
+}
+.bm{
+	margin:12px 5px 1px;
+	padding:0 2px;
+	border:1px solid #ccc;
+	width:130px;
+	height:20px;
+	float:left;
+}
+.bianm{
+    float: left;
+    margin: 12px 10px 0 0;
+    color: #666;
+    font-size: 12px;
+    line-height: 14px;
+    height: 22px;
+    width:42px;
+	background:url(../img/pay/checkout-button.png) 0px -45px;
+	border:1px solid #ccc;
+}
+.bianm:hover{
+	background:url(../img/pay/checkout-button.png) -42px -45px;
+}
+i{
+	transform:rotate(180deg);
+	transition:all 1s;
+}
+.step .click-two em{
+	color:#E5004F;
+	padding-left:25px;
+}
+.step .click-two em{
+	background:url(../img/pay/shopping-head.jpg)-223px -73px no-repeat;
+}
+.SubmitOrder{
+	position:relative;
+}
+.SubmitOrder a{
+	width:100%;
+	height:100%;
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:10;
+}

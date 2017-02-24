@@ -1,0 +1,125 @@
+#bottom{
+	width:100%;
+	height:165px;
+	background:#fff;
+}
+#bottom a{
+	color:#999;
+}
+.bottom_box{
+	width:1190px;
+	height:165px;
+	margin:auto;
+}
+.box_top{
+	width:1188px;
+	height:88px;
+	border:1px solid #eee;
+	background:#f7f7f7;
+	margin:30px 0 34px;
+}
+.dianhua{
+	width:282px;
+	height:68px;
+	padding:20px 0 0 45px;
+	border-right:1px solid #eee;
+}
+.box_top div{
+	float:left;
+} 
+.box_top .dianhua span{
+	display:inline-block;
+	color:#e5004f;
+	font-size:20px;
+	padding:0 16px 0 24px;
+	font-family: arial;
+	background:url("../img/img-body/bottom.png")2px 0 no-repeat;
+}
+.box_top i{
+	font-style: normal;
+	color:#666;
+	
+}
+.dianhua b{
+	font-weight:400;
+	font-size:14px;
+	font-family: arial;
+	padding-left:24px;
+	background:url('../img/img-body/bottom.png')0 -28px no-repeat;
+	color:#888;
+}
+.huan{
+	padding:23px 0 0 100px;
+	width:186px;
+	height:65px;
+	background:url('../img/img-body/bottom.png') 52px -56px no-repeat;
+}
+.huan span{
+	display:block;
+	font-size:16px;
+}
+.huan span i{
+	color:#e5004f;
+	font-style: normal;
+}
+.huan b{
+	color:#888;
+	font-weight:400;
+}
+.huan{
+	border-right:1px solid #eee;
+}
+.box_top .zhengpin{
+	background:url('../img/img-body/bottom.png') 52px -132px no-repeat;
+	padding-left:104px;
+	width:182px;
+}
+.box_top .yun{
+	border-right:none;
+	background:url('../img/img-body/bottom.png') 52px -203px no-repeat;
+	width:160px;
+	padding-left:115px;
+}
+.guanyuyt{
+	width:100%;
+	text-align:center;
+	margin-bottom:25px;
+}
+.guanyuyt a{
+	display:inline;
+	margin:0 11px;
+	font: normal 12px/1.5 Verdana,simsun,Sans-Serif;
+	color:#757574;
+	text-decoration: none;
+	cursor: auto;
+}
+.hao{
+	height:44px;
+	text-align:center;
+	color:#b2b2b2;
+	line-height:22px;
+	font: normal 12px/1.5 Verdana,simsun,Sans-Serif;
+}
+.hao a{
+	display: inline;
+	margin:0 5px;
+	line-height:22px;
+}
+.hao p{
+	line-height:22px;
+}
+.bottom_bottom{
+	height:48px;
+	padding:10px 0 20px 0;
+	text-align:center;
+}
+.bottom_bottom a{
+	display: inline;
+	margin:0 10px;
+}
+.bottom_bottom img{
+	height:40px;
+}
+#bottom a:hover{
+	text-decoration:none;
+}

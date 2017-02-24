@@ -1,0 +1,172 @@
+#hd,#btm{
+	background:#fff;
+}
+#hd nav{
+	display:none;
+}
+#bd{
+	background:#eee;
+	padding:20px;
+}
+.bd{
+	width:940px;
+	height:480px;
+	background:#fff;
+	margin:auto;
+	padding:20px;
+	
+}
+.pay-top{
+    height: 80px;
+    margin-bottom: 10px;
+}
+.pay-top h2{
+	float: left;
+    width: 112px;
+    height: 80px;
+    text-indent: -999px;
+    overflow: hidden;
+	background: url(../img/pay/shopping-head.jpg);
+}
+.step{
+	width: 538px;
+	height: 60px;
+	    padding-top: 3px;
+    float: right;
+    margin-right: 10px;
+    display: inline;
+    box-sizing: border-box;
+    background: url(../img/pay/shopping-head.jpg) -158px 5px;
+}
+.step span{
+	    float: left;
+    vertical-align: top;
+    text-align: center;
+    font-family: "\5fae\8f6f\96c5\9ed1";
+    color: #999;
+}
+.clickone{
+	    width: 76px;
+}
+.step .arrow{
+	display: block;
+    overflow: hidden;
+    width: 0;
+    text-indent: -999px;
+}
+.step span em{
+	    display: block;
+    padding-top: 20px;
+    text-align: center;
+    font-family: Verdana;
+    font-size: 10px;
+    color: #ccc;
+        font-style: normal;
+    font-weight: 400;
+}
+
+.step .click-two{
+	width: 402px;
+}
+.step .clicksan{
+    width: 60px;
+    color: #e4004d;
+    font-size:14px;
+}
+.step .clicksan em{
+ 	color: #e4004d;	
+ 	background:url(../img/pay/shopping-head.jpg)-635px -73px no-repeat;
+}
+.pay_bd{
+	width:940px;
+	height:380px;
+	margin:10px 0;
+}
+.pay_box{
+	width:760px;
+	height:179px;
+	padding:70px 0 40px 180px;
+    font-family: 微软雅黑;
+    color: #666;
+}
+.box_img{
+    float: left;
+    width: 48px;
+    height: 48px;
+    margin-right: 16px;
+    background:url(../img/pay/shopping-head.jpg) -705px 0px;
+    	
+}
+.box{
+	float: left;
+    min-height: 105px;
+    height: 179px;
+    width: 560px;	
+}
+.chenggong{
+    height: 22px;
+    font-size: 22px;
+    line-height: 22px;
+    font-weight: 700;
+    color: #333;
+    padding-bottom: 8px;
+    font-family: 微软雅黑	
+}
+.box i{
+	font-style:normal;
+	color:#E5004F;
+}
+h3{
+    height: 28px;
+    font-size: 16px;
+    color: #333;
+    line-height: 28px;
+    font-weight: normal;
+    padding: 25px 0 40px 0;
+}
+h3 b{
+	font-weight:500;
+	margin-right:45px;
+}
+h3 strong{
+	color:#E5004F;
+	font-size:30px;
+}
+.kan{
+    float: left;
+    height: 18px;
+    line-height: 18px;
+    font-size: 14px;
+    overflow: hidden;
+    margin-right: 80px;
+    color: #666;
+    width:84px;
+    padding:7px 16px 9px;
+    border:1px solid #999;	
+    font-weight:600;
+    background:url(../img/rpt.png)0px -250px repeat-x;
+    position:relative;
+}
+.zf{
+    float: left;
+    font-weight: 700;
+    width: 124px;
+    height: 36px;
+    color: #fff;
+    background:#333;
+    cursor: pointer;
+    font-size: 14px;
+    outline: medium none;
+    overflow: hidden;
+    border: none;
+    text-align: center;
+    padding: 7px 0 9px;	
+    position:relative;
+}
+.tiao{
+	width:100%;
+	height:100%;
+	position:absolute;
+	left:0;
+	top:0;
+}

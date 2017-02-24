@@ -1,0 +1,14 @@
+.head_box .zc{
+	background:url('../img/img-denglu/denglu.png') 0px -24px no-repeat;
+}
+.cjzh{
+	width:100%;
+	height:100%;
+	display:block;
+	position:absolute;
+	top:0;
+	display:none;
+}
+.chuangjianhz{
+	position:relative;
+}
